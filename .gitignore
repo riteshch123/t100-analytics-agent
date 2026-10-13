@@ -4,3 +4,15 @@
 
 # LangGraph
 .langgraph_api/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local data and secrets
+data/
+.env
