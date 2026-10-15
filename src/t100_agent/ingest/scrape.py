@@ -1,5 +1,4 @@
-"""Download one month of T-100 data from BTS TranStats and save it as Parquet.
-"""
+"""Download T-100 data and its support tables from BTS TranStats."""
 
 import os
 import tempfile
@@ -121,6 +120,22 @@ def _wait_option_present(driver, select_id: str, value: str, timeout: int = 10):
     WebDriverWait(driver, timeout).until(has_option)
 
 
+def _click_download(driver, download_dir: str) -> str | None:
+    """Click the form's Download button and return the path of the zip it produces."""
+    from selenium.webdriver.common.by import By
+
+    before = set(os.listdir(download_dir))
+    driver.find_element(By.ID, "btnDownload").click()
+    for _ in range(180):
+        zips = [f for f in set(os.listdir(download_dir)) - before if f.lower().endswith(".zip")]
+        if zips:
+            candidate = os.path.join(download_dir, zips[0])
+            if _wait_for_download(candidate):
+                return candidate
+        time.sleep(1)
+    return None
+
+
 def download_period(dataset: str, year: int, period: str) -> pd.DataFrame:
     """Drive the BTS download form for one year and return the raw rows.
 
@@ -146,20 +161,7 @@ def download_period(dataset: str, year: int, period: str) -> pd.DataFrame:
             _wait_option_present(driver, "cboPeriod", period)
             _retry_select_by_value(driver, "cboPeriod", period)
 
-            before = set(os.listdir(download_dir))
-            driver.find_element(By.ID, "btnDownload").click()
-
-            zip_path = None
-            for _ in range(180):
-                zips = [
-                    f for f in set(os.listdir(download_dir)) - before if f.lower().endswith(".zip")
-                ]
-                if zips:
-                    candidate = os.path.join(download_dir, zips[0])
-                    if _wait_for_download(candidate):
-                        zip_path = candidate
-                        break
-                time.sleep(1)
+            zip_path = _click_download(driver, download_dir)
             if not zip_path:
                 raise RuntimeError(f"Failed to download {dataset} {year} (period {period})")
             return _extract_csv(zip_path)

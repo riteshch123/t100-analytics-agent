@@ -9,6 +9,12 @@ Examples:
 
     # Monthly job: continue from the latest month already in BigQuery
     python -m t100_agent.ingest.run sync --delete-local
+
+    # Download the BTS lookup tables and load them with the aircraft classification
+    python -m t100_agent.ingest.run lookups
+
+    # Create the enriched views the agent queries
+    python -m t100_agent.ingest.run views
 """
 
 import argparse
@@ -93,6 +99,22 @@ def cmd_sync(args, settings: Settings) -> None:
                 break
 
 
+def cmd_lookups(args, settings: Settings) -> None:
+    from .bigquery_load import get_client
+    from .lookups import download_lookups, load_reference
+
+    if not args.skip_download:
+        download_lookups(settings)
+    load_reference(get_client(settings), settings)
+
+
+def cmd_views(args, settings: Settings) -> None:
+    from .bigquery_load import get_client
+    from .views import create_views
+
+    create_views(get_client(settings), settings)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="T-100 ingestion pipeline")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -113,9 +135,22 @@ def main() -> None:
                 help="delete each Parquet file after it is loaded, to save disk space",
             )
 
+    p = sub.add_parser("lookups", help="download BTS lookups and load all reference tables")
+    p.add_argument(
+        "--skip-download", action="store_true", help="load the files already in data/lookups"
+    )
+    sub.add_parser("views", help="create or replace the enriched views")
+
     args = parser.parse_args()
     settings = Settings.from_env()
-    {"scrape": cmd_scrape, "load": cmd_load, "sync": cmd_sync}[args.command](args, settings)
+    commands = {
+        "scrape": cmd_scrape,
+        "load": cmd_load,
+        "sync": cmd_sync,
+        "lookups": cmd_lookups,
+        "views": cmd_views,
+    }
+    commands[args.command](args, settings)
 
 
 if __name__ == "__main__":

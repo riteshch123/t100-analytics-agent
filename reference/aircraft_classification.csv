@@ -1,0 +1,447 @@
+AIRCRAFT_TYPE,AIRCRAFT_MODEL,AIRCRAFT_FAMILY,AIRCRAFT_GENERATION,NUM_ENGINES,AIRCRAFT_CATEGORY,AIRCRAFT_WING_TYPE,AIRCRAFT_PROPULSION,OEM,OEM_COUNTRY
+7,Aero Commander 200,Aero Commander 200 Series,,1,GA-Single Piston,Fixed wing,Piston,Rockwell,United States
+8,Aermacchi AL-60,Aermacchi AL-60,,1,GA-Single Piston,Fixed wing,Piston,Aermacchi,Italy
+9,Aerona 7-AC,Aeronca Champion,,1,GA-Single Piston,Fixed wing,Piston,Aeronca,United States
+10,B35A/C/D/E/G/H/J/K/S/V,Beecraft Bonanza (B35/36),,1,GA-Single Piston,Fixed wing,Piston,Beechcraft,United States
+20,CH-300,Bellanca Pacemaker (CH-300),,1,GA-Single Piston,Fixed wing,Piston,Bellanca,United States
+24,B23,Beechcraft Musketeer (B23),,1,GA-Single Piston,Fixed wing,Piston,Beechcraft,United States
+26,GA8 Air,GA8 Airvan,,1,GA-Single Piston,Fixed wing,Piston,Gippsaero,Australia
+29,C150/152,Cessna 150,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+30,C180,Cessna 180/185 Skywagon,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+31,C180A/B,Cessna 180/185 Skywagon,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+32,C180C/D/E/F,Cessna 180/185 Skywagon,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+33,C185A/B/C,Cessna 180/185 Skywagon,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+34,H-250A,Helio Courier,,1,GA-Single Piston,Fixed wing,Piston,Helio,United States
+35,C206/207/209/210,Cessna Stationair (C206-210),,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+36,C172,Cessna 172 Skyhawk,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+37,C195,Cessna 195 Businessliner,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+38,C177,Cessna 177 Cardinal,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+39,C182,Cessna 182 Skylane,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+40,DHC-2,DHC Beaver,,1,GA-Single Piston,Fixed wing,Piston,De Havilland Canada,Canada
+41,C205,Cessna 205 Super Skywagon,,1,GA-Single Piston,Fixed wing,Piston,Cessna,United States
+42,DHC-3,DHC Otter,,1,GA-Single Piston,Fixed wing,Piston,De Havilland Canada,Canada
+44,LA-4,Lake Buccaneer,,1,GA-Single Piston,Fixed wing,Piston,Lake,United States
+50,Howard DGA-15,Howard DGA-15,,1,GA-Single Piston,Fixed wing,Piston,Howard,United States
+51,M-21,Mooney M20,,1,GA-Single Piston,Fixed wing,Piston,Mooney,United States
+52,M-20C/E/G,Mooney M20,,1,GA-Single Piston,Fixed wing,Piston,Mooney,United States
+65,UC-64AS,Noorduyn UC-64A Norseman,,1,GA-Single Piston,Fixed wing,Piston,Noorduyn,Canada
+70,PC-6,Pilatus Porter PC6,,1,GA-Single Piston,Fixed wing,Piston,Pilatus,Switzerland
+71,PC-6/350,Pilatus Porter PC6,,1,GA-Single Piston,Fixed wing,Piston,Pilatus,Switzerland
+79,PA-32,Piper PA-32 Cherokee 6,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+80,PA-18,Piper PA-18 Super Cub,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+81,PA-14,Piper PA-14 Family Cruiser,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+82,PA-22,Piper PA-22 Tri-Pacer,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+83,PA-24,Piper PA-24 Comanche,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+84,PA-28,Piper PA-28 Cherokee,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+85,SR-9,Stinson Reliant,,1,GA-Single Piston,Fixed wing,Piston,Stinson,United States
+86,PA-12,Piper PA-12 Supercruiser,,1,GA-Single Piston,Fixed wing,Piston,Piper,United States
+87,V-77,Stinson Reliant,,1,GA-Single Piston,Fixed wing,Piston,Stinson,United States
+88,SR-10E Bushman,Stinson SR-10E Bushman,,1,GA-Single Piston,Fixed wing,Piston,Stinson,United States
+91,Float/Amphib Turbine,Float/Amphib Turbine,,1,GA-Single Turboprop,Fixed wing,Turboprop,,
+92,Amphibian Piston Fixed Wing Aircraft <450HP,Amphibian Piston Fixed Wing Aircraft <450HP,,1,GA-Single Piston,Fixed wing,Piston,,
+93,Amphibian Piston Fixed Wing Aircraft >=450HP,Amphibian Piston Fixed Wing Aircraft >=450HP,,1,GA-Single Piston,Fixed wing,Piston,,
+94,Land-Turbine,Land-Turbine,,1,GA-Single Turboprop,Fixed wing,Turboprop,,
+95,Tricycle-Gear Piston Fixed Wing Aircraft <450 HP,Tricycle-Gear Piston Fixed Wing Aircraft <450 HP,,1,GA-Single Piston,Fixed wing,Piston,,
+96,Tricycle-Gear Piston Fixed Wing Aircraft >=450 HP,Tricycle-Gear Piston Fixed Wing Aircraft >=450 HP,,1,GA-Single Piston,Fixed wing,Piston,,
+97,Stin.FW 300-450 HP,Stinson aircraft >= 300HP,,1,GA-Single Piston,Fixed wing,Piston,Stinson,United States
+98,Stin.FW LT 300 HP,Stinson aircraft <300HP,,1,GA-Single Piston,Fixed wing,Piston,Stinson,United States
+102,P2012,Technam P2012 Traveler,,2,GA-Twin Piston,Fixed wing,Piston,Tecnam,Italy
+103,Aero Commander 500/600,Aero Commander 500/600 Series,,2,GA-Twin Piston,Fixed wing,Piston,Rockwell,United States
+104,Aero Commander 680FL,Grand Commander 680FL,,2,GA-Twin Turboprop,Fixed wing,Piston,Rockwell,United States
+105,C50,Beechcraft Twin Bonanza (B50),,2,GA-Twin Piston,Fixed wing,Piston,Beechcraft,United States
+110,B18C-185,Beechcraft Model 18,,2,GA-Twin Piston,Fixed wing,Piston,Beechcraft,United States
+111,C90,Beechcraft King Air (C90/B100),,2,GA-Twin Turboprop,Fixed wing,Piston,Beechcraft,United States
+113,B95,Beechcraft Travel Air (B95),,2,GA-Twin Piston,Fixed wing,Piston,Beechcraft,United States
+115,AT-11,Beechcraft Model 18,,2,GA-Twin Piston,Fixed wing,Piston,Beechcraft,United States
+117,B55,Beechcraft Baron (B55/B58),,2,GA-Twin Piston,Fixed wing,Piston,Beechcraft,United States
+120,AT-17,Cessna T-50/AT-17 Bobcat,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+121,C421,Cessna 421 Golden Eagle,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+122,C310,Cessna 310,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+123,C340/335,Cessna 340/335,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+125,C402,Cessna 401/402,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+128,C404,Cessna 404 Titan,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+130,C-28 5ACF PBY,Consolidated PBY Catalina,,2,GA-Twin Piston,Fixed wing,Piston,Convair,United States
+131,BN2/A Islander,BN2/A Islander,,2,GA-Twin Piston,Fixed wing,Piston,Britten-Norman,United Kingdom
+132,C-28 5ACF-PBY EMQ,Consolidated PBY Catalina,,2,GA-Twin Piston,Fixed wing,Piston,Convair,United States
+133,B65-65; A90,Beechcraft Queen Air,,2,GA-Twin Piston,Fixed wing,Piston,Beechcraft,United States
+140,CV-240,Convair CV-240,Legacy,2,Narrowbody,Fixed wing,Piston,Convair,United States
+143,CV-340/440,Convair CV-340/440,Legacy,2,Narrowbody,Fixed wing,Piston,Convair,United States
+148,C337,Cessna 337 Super Skymaster,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+149,C401,Cessna 401/402,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+150,C46/20T/A/D/F/R,Curtiss C46 Series,Legacy,2,Narrowbody,Fixed wing,Piston,Curtiss-Wright,United States
+152,C411,Cessna 411,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+153,DHC-4,DHC Caribou,,2,GA-Twin Piston,Fixed wing,Piston,De Havilland Canada,Canada
+158,DC-2,DC-2,Legacy,2,Narrowbody,Fixed wing,Piston,Boeing,United States
+159,Hamilton B-18S,Beechcraft Model 18,,2,GA-Twin Piston,Fixed wing,Piston,Hamilton,United States
+160,DC-3/A/C (C-47/B),DC-3,Legacy,2,Narrowbody,Fixed wing,Piston,Boeing,United States
+161,DO-28,Dornier Do-28 Skyservant,Current Gen,2,GA-Twin Piston,Fixed wing,Piston,Dornier,Germany
+166,C336,Cessna 336 Skymaster,,2,GA-Twin Piston,Fixed wing,Piston,Cessna,United States
+167,C-82A,Fairchild C-82A,Legacy,2,GA-Other,Fixed wing,Piston,Fairchild,United States
+170,Grumman G-21A,Grumman Goose (G-21),,2,GA-Twin Piston,Fixed wing,Piston,Grumman,United States
+171,Grumman SA-16A-GR,Grumman lbatross (HU-16),,2,GA-Twin Piston,Fixed wing,Piston,Grumman,United States
+172,Grumman G-44/44A,Grumman Widgeon (G-44),,2,GA-Twin Piston,Fixed wing,Piston,Grumman,United States
+173,Grumman G-73,Grumman Mallard (G-73),,2,GA-Twin Piston,Fixed wing,Piston,Grumman,United States
+174,DH-104,DH.104 Dove,Legacy,2,GA-Twin Piston,Fixed wing,Piston,De Havilland Canada,Canada
+175,L-12A/L-10/10A,Lockheed Model 12 Electra Junior,Legacy,2,GA-Twin Piston,Fixed wing,Piston,Lockheed,United States
+180,Martin 202/202A,Martin 2-0-2,Legacy,2,Narrowbody,Fixed wing,Piston,Lockheed Martin,United States
+185,Martin 404,Martin 4-0-4,Legacy,2,Narrowbody,Fixed wing,Piston,Lockheed Martin,United States
+190,PA-23-250,Piper PA-23 Aztec/Apache,,2,GA-Twin Piston,Fixed wing,Piston,Piper,United States
+193,PA-31/T-1020,Piper PA-31 Navajo,,2,GA-Twin Piston,Fixed wing,Piston,Piper,United States
+194,PA-31,Piper PA-31 Navajo,,2,GA-Twin Piston,Fixed wing,Piston,Piper,United States
+195,PA-34/39,Piper PA-34/39 Twin Commanche,,2,GA-Twin Piston,Fixed wing,Piston,Piper,United States
+200,B377,B377 Stratocruiser,Legacy,4,Widebody,Fixed wing,Piston,Boeing,United States
+201,BN2A Islander,BN2/A Islander,,2,GA-Twin Piston,Fixed wing,Piston,Britten-Norman,United Kingdom
+205,DH-114,DHC Heron,Legacy,2,Turboprop,Fixed wing,Piston,De Havilland Canada,Canada
+210,DC-4 (C54/C54A/C54B/C54E),DC-4,Legacy,4,Narrowbody,Fixed wing,Piston,Boeing,United States
+216,DC-6,DC-6,Legacy,4,Narrowbody,Fixed wing,Piston,Boeing,United States
+218,DC-6A,DC-6,Legacy,4,Narrowbody,Fixed wing,Piston,Boeing,United States
+220,DC-6B,DC-6,Legacy,4,Narrowbody,Fixed wing,Piston,Boeing,United States
+225,DC-7A/B,DC-6,Legacy,4,Narrowbody,Fixed wing,Piston,Boeing,United States
+228,DC-7C,DC-7,Legacy,4,Narrowbody,Fixed wing,Piston,Boeing,United States
+240,L-049,Lockheed L-049 Constellation,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+242,L-649,Lockheed L-649 Constellation,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+244,L-749,Lockheed L-749 Constellation,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+247,L-1049,Lockheed L-1049 Super Constellation,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+248,L-1049C/D/E,Lockheed L-1049 Super Constellation,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+252,L-1049G/H,Lockheed L-1049 Super Constellation,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+258,L-1649A,Lockheed L-1649 Starliner,Legacy,4,Narrowbody,Fixed wing,Piston,Lockheed,United States
+280,VS-44A,Sikorsky VS-44,Legacy,4,Turboprop,Fixed wing,Piston,Sikorsky,United States
+303,Sud Alouette,Alouette II/III,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Airbus,France
+311,B-47D,Bell 47,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Bell,United States
+312,B-47G,Bell 47,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Bell,United States
+313,B-47G2,Bell 47,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Bell,United States
+314,B-47J2,Bell 47,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Bell,United States
+315,B-206A,Bell 206,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Bell,United States
+317,HU-1H 204B,Bell UH-1 Iroquois,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Bell,United States
+318,A318,A320ceo Family,Current Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+320,BV-107,Boeing Vertol CH-46 Sea Knight,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Boeing,United States
+321,BV-44,Piasecki H-21 Shawnee / Boeing Vertol 44,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Boeing,United States
+322,Brantly B-2,Brantly B-2,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Brantley,United States
+323,FH-1100,Fairchild-Hiller FH-1100,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Fairchild,United States
+325,A-119,Agusta A-119 Koala,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Agusta,Italy
+330,BO-105C,MBB Bo 105,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Airbus,France
+335,A350-1000,A350,Next Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+339,A330-900neo,A330neo,Next Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+340,AS350,Eurocopter AS350/Airbus Helicopters H125,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Airbus Helicopters,France
+343,AIRBUS A330-223/24,A330ceo,Current Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+345,B-212,Bell Twin Two-Twelve (212),,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Bell,United States
+350,Hughes 300,Hughes/Schweizer S300,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Hughes,United States
+355,Hughes 500,MD Helicopters MD 500,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Hughes,United States
+359,A350-9000,A350,Next Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+360,R44,Robinson R44,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Robinson,United States
+362,B-206 LT,Bell 206 Long Ranger,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Bell,United States
+364,B-206 L4,Bell 206 Long Ranger,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Bell,United States
+366,B-407,Bell 407,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Bell,United States
+368,B-412,Bell 412,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Bell,United States
+370,BO-105,MBB Bo 105,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Airbus Helicopters,France
+380,S-51,Sikorsky H-5/S-51,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Sikorsky,United States
+381,S-55,Sikorsky Chickasaw H-19/S-55,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Sikorsky,United States
+385,S-58A/B/C,Sikorsky H-34/S-58,,1,Helicopter-Single Piston,Rotor wing,Helicopter,Sikorsky,United States
+386,S-61N,Sikorsky S-61,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Sikorsky,United States
+387,S-61,Sikorsky S-61,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Sikorsky,United States
+388,S-61L,Sikorsky S-61,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Sikorsky,United States
+389,S-62/A,Sikorsky HH-52/S-62,,1,Helicopter-Single Turboshaft,Rotor wing,Helicopter,Sikorsky,United States
+390,S-76,Sikorsky S-76,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Sikorsky,United States
+393,AW139,Agusta Westland AW139,,2,Helicopter-Twin Turboshaft,Rotor wing,Helicopter,Agusta,Italy
+395,DHC-6-400,DHC Twin Otter,,2,GA-Twin Turboprop,Rotor wing,Helicopter,Viking Air,Canada
+396,SR-N5 (ACV),Westland SR.N5,,1,GA-Other,Rotor wing,Helicopter,Agusta,Italy
+401,B1300,Beechcraft Super King Air,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+402,B18,Beechcraft Model 18,,2,GA-Twin Piston,Fixed wing,Turboprop,Beechcraft,United States
+403,B99,Beechcraft Model 99,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+404,C99,Beechcraft Model 99,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+405,B1900 A/B/C/D,Beechcraft 1900,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+406,B200,Beechcraft Super King Air,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+407,HS.748,Hawker Siddeley HS 748 ,Current Gen,2,Turboprop,Fixed wing,Turboprop,BAE Systems,United Kingdom
+408,BAE-ATP,British Aerospace ATP,Current Gen,2,Turboprop,Fixed wing,Turboprop,BAE Systems,United Kingdom
+409,B100,Beechcraft King Air (C90/B100),,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+410,AC68 / 680-W/690,Turbo II Commander,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Rockwell,United States
+411,B65-65; A90,Beechcraft Queen Air,,2,GA-Twin Piston,Fixed wing,Turboprop,Beechcraft,United States
+412,C212,CASA 212 Aviocar,,2,Turboprop,Fixed wing,Turboprop,Airbus,France
+413,CASA 235,CASA 235,,2,Turboprop,Fixed wing,Turboprop,Airbus,France
+415,C208B,Cessna 208B Grand Caravan,,1,GA-Single Turboprop,Fixed wing,Turboprop,Cessna,United States
+416,C208,Cessna 208 Caravan,,1,GA-Single Turboprop,Fixed wing,Turboprop,Cessna,United States
+417,F406,Reims-Cessna F406 Caravan II,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Cessna,United States
+418,C441,Cessna 441 Conquest II,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Cessna,United States
+420,CV-540,Convair CV-540,Legacy,2,Turboprop,Fixed wing,Turboprop,Convair,United States
+421,C408,Cessna 408 SkyCourier,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Cessna,United States
+422,Kodiak 100,Kodiak 100,,1,GA-Single Turboprop,Fixed wing,Turboprop,Quest Kodiak,United States
+425,P180,P180 Avanti,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Piaggio Aerospace,Italy
+430,CV-580,Convair CV-580,Legacy,2,Turboprop,Fixed wing,Turboprop,Convair,United States
+431,TBM-850,TBM-850,,1,GA-Single Turboprop,Fixed wing,Turboprop,Daher-Socata,France
+432,Saab 2000,Saab 2000,Current Gen,2,Turboprop,Fixed wing,Turboprop,Saab,Sweden
+433,TBM-700,TBM-700,,1,GA-Single Turboprop,Fixed wing,Turboprop,Daher-Socata,France
+434,King Air A100,Beechcraft King Air (C90/B100),,2,GA-Twin Turboprop,Fixed wing,Turboprop,Raytheon,United States
+435,CV-600,Convair CV-600,Legacy,2,Narrowbody,Fixed wing,Turboprop,Convair,United States
+437,B58,Beechcraft Baron (B55/B58),,2,GA-Twin Piston,Fixed wing,Turboprop,Beechcraft,United States
+440,CV-640,Convair CV-640,Legacy,2,Turboprop,Fixed wing,Turboprop,Convair,United States
+441,ATR-42,ATR-42 (All variants),Current Gen,2,Turboprop,Fixed wing,Turboprop,ATR,France/Italy
+442,ATR-72,ATR-72 (All variants),Current Gen,2,Turboprop,Fixed wing,Turboprop,ATR,France/Italy
+443,Air Tractor AT-802,Air Tractor AT-802,,1,GA-Single Turboprop,Fixed wing,Turboprop,Air Tractor,United States
+444,AN-24,Antonov An-24,Legacy,2,Turboprop,Fixed wing,Turboprop,Antonov,Ukraine
+445,CV-660,Convair CV-660,Legacy,2,Turboprop,Fixed wing,Turboprop,Convair,United States
+448,DO-228,Dornier 228,Current Gen,2,Turboprop,Fixed wing,Turboprop,Dornier,Germany
+449,DO-328,Dornier 328,Current Gen,2,Turboprop,Fixed wing,Turboprop,Fairchild Dornier,Germany
+450,F-27,Fokker F-27,Current Gen,2,Turboprop,Fixed wing,Turboprop,Fokker,Netherlands
+451,Virus SW,Pipistrel Virus SW,,1,GA-Single Piston,Fixed wing,Turboprop,Pipistrel,Slovenia
+452,Fokker 50,Fokker 50,Current Gen,2,Turboprop,Fixed wing,Turboprop,Fokker,Netherlands
+454,FH-227,Fairchild-Hiller FH-227,Current Gen,2,Turboprop,Fixed wing,Turboprop,Fairchild,United States
+455,Metro 23,Fairchild Metro 23,Current Gen,2,Turboprop,Fixed wing,Turboprop,Fairchild,United States
+456,Saab 340/B,Saab 340,Current Gen,2,Turboprop,Fixed wing,Turboprop,Saab,Sweden
+457,C90,Beechcraft King Air (C90/B100),,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+458,B350,Beechcraft Super King Air,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Beechcraft,United States
+459,Saab 340/A,Saab 340,Current Gen,2,Turboprop,Fixed wing,Turboprop,Saab,Sweden
+460,Grumman G-21G,Grumman Goose (G-21),,2,GA-Twin Piston,Fixed wing,Piston,Grumman,United States
+461,EMB-120,EMB-120 Brasilia,Current Gen,2,Turboprop,Fixed wing,Turboprop,Embraer,Brazil
+462,Metro Merlin,Merlin / Metroliner,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Fairchild,United States
+463,MU-2B,Mitsubishi MU-2,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Mitsubishi,Japan
+464,EMB-110,EMB-110 Bandeirante,Current Gen,2,Turboprop,Fixed wing,Turboprop,Embraer,Brazil
+465,YS-11,NAMC YS-11,Legacy,2,Turboprop,Fixed wing,Turboprop,Namc,Japan
+466,Metro II,Merlin / Metroliner,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Fairchild,United States
+467,Metro III,Merlin / Metroliner,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Fairchild,United States
+468,HP 137,Handleyu Page Jetstream,Current Gen,2,Turboprop,Fixed wing,Turboprop,Handley Page,United Kingdom
+469,Jetstream 31,British Aerospace Jetstream,Current Gen,2,Turboprop,Fixed wing,Turboprop,BAE Systems,United Kingdom
+470,Gulfstream I,Gulfstream I,,2,Midsize Jet,Fixed wing,Turboprop,Gulfstream,United States
+471,Jetstream 41,British Aerospace Jetstream,Current Gen,2,Turboprop,Fixed wing,Turboprop,BAE Systems,United Kingdom
+473,Gulfstream I-Commander,Gulfstream I,,2,Midsize Jet,Fixed wing,Turboprop,Gulfstream,United States
+474,HS.748,Hawker Siddeley HS 748 ,Current Gen,2,Turboprop,Fixed wing,Turboprop,BAE Systems,United Kingdom
+475,N-262,Aerospatiale N-262,Legacy,2,Turboprop,Fixed wing,Turboprop,Airbus,France
+476,PA-30/31T,Piper PA-30/31T Cheyenne II XL,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Piper,United States
+477,Mohawk 298,Aerospatiale N-262,Legacy,2,Turboprop,Fixed wing,Turboprop,Airbus,France
+478,PA-31/T-1040,Piper PA-31 Navajo,,2,GA-Twin Piston,Fixed wing,Turboprop,Piper,United States
+479,PC-12,PC-12/NGX,,1,GA-Single Turboprop,Fixed wing,Turboprop,Pilatus,Switzerland
+480,PC-6A,Pilatus Porter PC6,,1,GA-Single Piston,Fixed wing,Turboprop,Pilatus,Switzerland
+481,PC-6B,Pilatus Porter PC6,,1,GA-Single Piston,Fixed wing,Turboprop,Pilatus,Switzerland
+482,DHC-8-400,DHC Dash 8 Series,Current Gen,2,Turboprop,Fixed wing,Turboprop,De Havilland Canada,Canada
+483,DHC-8-100,DHC Dash 8 Series,Current Gen,2,Turboprop,Fixed wing,Turboprop,De Havilland Canada,Canada
+484,DHC-8-300,DHC Dash 8 Series,Current Gen,2,Turboprop,Fixed wing,Turboprop,De Havilland Canada,Canada
+485,DHC-6,DHC Twin Otter,,2,GA-Twin Turboprop,Fixed wing,Turboprop,De Havilland Canada,Canada
+486,SC-7 Skyvan,SC-7 Skyvan,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Short Brothers,United Kingdom
+487,Shorts 330,Shorts 330,Current Gen,2,Turboprop,Fixed wing,Turboprop,Short Brothers,United Kingdom
+488,CJ-600A,Carstedt Jet Liner 600A,,2,Light Jet,Fixed wing,Turboprop,Carstedt,United States
+489,Shorts 360,Shorts 360,Current Gen,2,Turboprop,Fixed wing,Turboprop,Short Brothers,United Kingdom
+490,Volpar Turbo 18,Volpar Turbo 18,,2,GA-Twin Turboprop,Fixed wing,Turboprop,Volpar,United States
+491,DHC-8-200Q,DHC Dash 8 Series,Current Gen,2,Turboprop,Fixed wing,Turboprop,Bombardier,Canada
+495,Hawker 4000,Hawker 4000,,2,Super Midsize Jet,Fixed wing,Jet,Beechcraft,United States
+501,G500C,Gulfstream G500,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+507,AN-12,Antonov An-12,Legacy,4,Turboprop,Fixed wing,Turboprop,Antonov,Ukraine
+508,AN-22,Antonov An-225 Mriya,Current Gen,6,Widebody,Fixed wing,Turboprop,Antonov,Ukraine
+510,AW.660,AW.660 Argosy,Legacy,4,Widebody,Fixed wing,Turboprop,Armstrong Whitworth,United Kingdom
+515,CL350,Challenger 300/350,,2,Super Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+520,CL-44D,Canadair CL-44,Legacy,4,Turboprop,Fixed wing,Turboprop,Bombardier,Canada
+530,CRJ550,CRJ700 Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+541,IL-18,Ilyushin IL-18,Legacy,4,Turboprop,Fixed wing,Turboprop,Ilyushin,Russia
+550,L-188A/C,Lockheed L-188 Electra,Legacy,4,Turboprop,Fixed wing,Turboprop,Lockheed,United States
+552,L-382B,Lockheed L-100 Hercules,Legacy,4,GA-Other,Fixed wing,Turboprop,Lockheed,United States
+553,L100-10,Lockheed L100 Hercules,Legacy,4,GA-Other,Fixed wing,Turboprop,Lockheed,United States
+555,L100-20,Lockheed L100 Hercules,Legacy,4,GA-Other,Fixed wing,Turboprop,Lockheed,United States
+556,L100-30/L-382E,Lockheed L100 Hercules,Legacy,4,GA-Other,Fixed wing,Turboprop,Lockheed,United States
+560,Shorts SH5,Shorts Belfast SH5,Legacy,4,Turboprop,Fixed wing,Turboprop,Short Brothers,United Kingdom
+570,DHC-7,DHC Dash 7,Current Gen,4,Turboprop,Fixed wing,Turboprop,De Havilland Canada,Canada
+575,Learjet 75,Bombardier Learjet 70/75,,2,Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+580,VV-700,VV-700,,1,GA-Single Piston,Fixed wing,Turboprop,Vickers,United Kingdom
+584,VV-800,VV-800,,1,GA-Single Piston,Fixed wing,Turboprop,Vickers,United Kingdom
+601,Fokker F28-1000,Fokker F28,Current Gen,2,Regional Jet,Fixed wing,Jet,Fokker,Netherlands
+602,F28,Fokker F28,Current Gen,2,Regional Jet,Fixed wing,Jet,Fokker,Netherlands
+603,Fokker 100,Fokker 100,Current Gen,2,Regional Jet,Fixed wing,Jet,Fokker,Netherlands
+604,Fokker 70,Fokker 70,Current Gen,2,Regional Jet,Fixed wing,Jet,Fokker,Netherlands
+605,BAC-111-200,BAC One-Eleven (111),Legacy,2,Narrowbody,Fixed wing,Jet,BAE Systems,United Kingdom
+606,B390,Beechcraft Premier I,,2,Light Jet,Fixed wing,Jet,Beechcraft,United States
+607,AN-72,Antonov An-72,Current Gen,2,GA-Other,Fixed wing,Jet,Antonov,Ukraine
+608,B717-200,B717,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+609,CL300,Challenger 300/350,,2,Super Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+610,BAC-111-400,BAC One-Eleven (111),Legacy,2,Narrowbody,Fixed wing,Jet,BAE Systems,United Kingdom
+611,Aero Commander 1121 Jet,Aero Commander 1121 Jet,,2,Light Jet,Fixed wing,Jet,Rockwell,United States
+612,B737-700/LR,B737 NG,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+613,Aerospatiale Corvette,Aerospatiale Corvette,,2,Light Jet,Fixed wing,Jet,Airbus,France
+614,B737-800,B737 NG,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+615,B737-5/600LR,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+616,B737-500,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+617,B737-400,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+618,B737-300LR,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+619,B737-300,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+620,B737-100/200,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+621,B737-200C,B737 CL,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+622,B757-200,B757,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+623,B757-300,B757,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+624,B767-400/ER,B767,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+625,B767-200/ER,B767,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+626,B767-300/ER,B767,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+627,B777-200,B777,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+628,CRJ100,CRJ100/200,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+629,CRJ200,CRJ100/200,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+630,DC-9-10,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+631,CRJ700,CRJ700 Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+632,DO-328 Jet,Dornier 328 Jet,Current Gen,2,Regional Jet,Fixed wing,Jet,Fairchild Dornier,Germany
+633,B737-600,B737 NG,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+634,B737-900,B737 NG,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+635,DC-9-15F,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+636,C550,Citation II/Bravo,,2,Light Jet,Fixed wing,Jet,Cessna,United States
+637,B777-300/ER,B777,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+638,CRJ900,CRJ900 Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+639,CJ1/CJ2/CJ3,Citation CJ1/CJ2/CJ3,,2,Light Jet,Fixed wing,Jet,Cessna,United States
+640,DC-9-30,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+641,G-III/G-IV,Gulfstream G-IV,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+642,Hawker 400XP,Hawker 400,,2,Light Jet,Fixed wing,Jet,Beechcraft,United States
+643,1124A Westwind II,1121 Jet Commander / 1124A Westwind II,,2,Light Jet,Fixed wing,Jet,Iai,Israel
+644,A318,A320ceo Family,Current Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+645,DC-9-40,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+646,C650/550B/550XL,Citation II/III/Excel,,2,Light Jet,Fixed wing,Jet,Cessna,United States
+647,C750,Citation X,,2,Super Midsize Jet,Fixed wing,Jet,Cessna,United States
+648,G200,Gulfstream G200,,2,Super Midsize Jet,Fixed wing,Jet,Gulfstream,United States
+649,TU-204-300,Tu-204,Current Gen,2,Narrowbody,Fixed wing,Jet,Tupolev,Russia
+650,DC-9-50,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+651,G150,Gulfstream G150,,2,Super Midsize Jet,Fixed wing,Jet,Gulfstream,United States
+652,Challenger 600,Challenger 600 Series,,2,Super Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+653,CE-680,Citation Sovereign,,2,Super Midsize Jet,Fixed wing,Jet,Cessna,United States
+654,MD87,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+655,MD81/MD82/MD/83/MD88,DC-9 / MD80 Series,Legacy,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+656,MD-90,MD-90,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+657,CRJ705,CRJ900 Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+658,BD-700 Global Express,Bombardier Global Express,,2,Large/Long Range Jet,Fixed wing,Jet,Bombardier,Canada
+659,Learjet 60,Bombardier Learjet 60,,2,Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+660,Lear 23,Bombardier Learjet 23/24/25,,2,Light Jet,Fixed wing,Jet,Learjet,United States
+661,Lear 24,Bombardier Learjet 23/24/25,,2,Light Jet,Fixed wing,Jet,Learjet,United States
+662,Lear 25,Bombardier Learjet 23/24/25,,2,Light Jet,Fixed wing,Jet,Learjet,United States
+663,Lear 35,Bombardier Learjet 35,,2,Light Jet,Fixed wing,Jet,Learjet,United States
+664,HFB-320,HFB 320 Hansa Jet,,2,Light Jet,Fixed wing,Jet,Hansa,Germany
+665,HS.125,British Aerospace 125 / Hawker 800,,2,Midsize Jet,Fixed wing,Jet,BAE Systems,United Kingdom
+666,Lear 55,Bombardier Learjet 55,,2,Midsize Jet,Fixed wing,Jet,Learjet,United States
+667,G-550,Gullstream G-V/G550,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+668,CL601,Challenger 600 Series,,2,Super Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+669,CL604/605,Challenger 600 Series,,2,Super Midsize Jet,Fixed wing,Jet,Bombardier,Canada
+670,Rockwell Sabreliner,Rockwell Sabreliner,,2,Light Jet,Fixed wing,Jet,Rockwell,United States
+671,G450,Gulfstream G450,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+672,Hawker 900XP,Hawker 900XP,,2,Midsize Jet,Fixed wing,Jet,Beechcraft,United States
+673,E175,Embraer E170/E175,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+674,ERJ135,Embraer ERJ Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+675,ERJ145,Embraer ERJ Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+676,ERJ140,Embraer ERJ Series,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+677,E170,Embraer E170/E175,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+678,E190,Embraer E190/E195,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+679,Grumman G-1159,Gulfstream II,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+680,SE-210,SE-210 Caravelle,Legacy,2,Narrowbody,Fixed wing,Jet,Airbus,France
+681,Falcon 20,Falcon 20,,2,Light Jet,Fixed wing,Jet,Dassault,France
+682,Falcon 2000EX/2000LXS,Falcon 2000EX/LXS,,2,Super Midsize Jet,Fixed wing,Jet,Dassault,France
+683,B777-F,B777,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+684,Hawker 800XP,British Aerospace 125 / Hawker 800,,2,Midsize Jet,Fixed wing,Jet,Beechcraft,United States
+685,C510/560XL,Citation 510 Mustang/560XL Excel,,2,Very Light Jet,Fixed wing,Jet,Cessna,United States
+686,Learjet 45,Bombardier Learjet 40,,2,Light Jet,Fixed wing,Jet,Bombardier,Canada
+687,AIRBUS A330-300/33,A330ceo,Current Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+688,Global 5000,Bombardier Global Express,,2,Large/Long Range Jet,Fixed wing,Jet,Bombardier,Canada
+689,A300-600ST Beluga,A300,Legacy,2,Widebody,Fixed wing,Jet,Airbus,France
+690,A300B/C/F-100/200,A300,Legacy,2,Widebody,Fixed wing,Jet,Airbus,France
+691,A300-600,A300,Legacy,2,Widebody,Fixed wing,Jet,Airbus,France
+692,A310-200,A310,Legacy,2,Widebody,Fixed wing,Jet,Airbus,France
+693,A310-300,A310,Legacy,2,Widebody,Fixed wing,Jet,Airbus,France
+694,A320ceo,A320ceo Family,Current Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+695,A300-B2,A300,Legacy,2,Widebody,Fixed wing,Jet,Airbus,France
+696,A330-200/220F,A330ceo,Current Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+697,A340,A340,Legacy,4,Widebody,Fixed wing,Jet,Airbus,France
+698,A319ceo,A320ceo Family,Current Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+699,A321ceo,A320ceo Family,Current Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+710,B727-100,B727,Legacy,3,Narrowbody,Fixed wing,Jet,Boeing,United States
+711,B727-100C/QC,B727,Legacy,3,Narrowbody,Fixed wing,Jet,Boeing,United States
+714,SuperJet 100,SSJ100,Current Gen,2,Regional Jet,Fixed wing,Jet,Sukhoi,Russia
+715,B727-200,B727,Legacy,3,Narrowbody,Fixed wing,Jet,Boeing,United States
+716,Global 6500,Bombardier Global Express,,2,Large/Long Range Jet,Fixed wing,Jet,Bombardier,Canada
+717,MRJ-70/STD/ER/LR,Mitsubishi SpaceJet/MRJ,Next Gen,2,Regional Jet,Fixed wing,Jet,Mitsubishi,Japan
+718,MRJ-90/STD/SR/LR,Mitsubishi SpaceJet/MRJ,Next Gen,2,Regional Jet,Fixed wing,Jet,Mitsubishi,Japan
+719,A319neo,A320neo Family,Next Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+720,CS100,A220 / CS Series,Next Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+721,A321neo,A320neo Family,Next Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+722,A320neo,A320neo Family,Next Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+723,A220-100,A220 / CS Series,Next Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+724,A220-300,A220 / CS Series,Next Gen,2,Narrowbody,Fixed wing,Jet,Airbus,France
+725,Falcon 8X,Falcon 8X,,3,Large/Long Range Jet,Fixed wing,Jet,Dassault,France
+730,DC-10-10,DC-10,Legacy,3,Widebody,Fixed wing,Jet,Boeing,United States
+731,DC-10-20,DC-10,Legacy,3,Widebody,Fixed wing,Jet,Boeing,United States
+732,DC-10-30,DC-10,Legacy,3,Widebody,Fixed wing,Jet,Boeing,United States
+733,DC-10-40,DC-10,Legacy,3,Widebody,Fixed wing,Jet,Boeing,United States
+735,DC-10-30CF,DC-10,Legacy,3,Widebody,Fixed wing,Jet,Boeing,United States
+737,B737 MAX 7,B737 MAX,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+740,MD-11,MD-11,Current Gen,3,Widebody,Fixed wing,Jet,Boeing,United States
+745,EMB-550,Embraer Legacy 450/500,,2,Midsize Jet,Fixed wing,Jet,Embraer,Brazil
+746,EMB-500/505,Embraer Phenom 100/300,,2,Very Light Jet,Fixed wing,Jet,Embraer,Brazil
+748,E195,Embraer E190/E195,Current Gen,2,Regional Jet,Fixed wing,Jet,Embraer,Brazil
+749,G500,Gulfstream G500,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+750,G650,Gulfstream G650,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+751,Global 7500,Bombardier Global Express,,2,Large/Long Range Jet,Fixed wing,Jet,Bombardier,Canada
+752,G280,Gulfstream G280,,2,Super Midsize Jet,Fixed wing,Jet,Gulfstream,United States
+753,G600,Gulfstream G600,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+754,EMB-550,Embraer Praetor 500/600,,2,Super Midsize Jet,Fixed wing,Jet,Embraer,Brazil
+755,EMB-600,Embraer Legacy 600/650,,2,Midsize Jet,Fixed wing,Jet,Embraer,Brazil
+760,L-1011-1/100/200,Lockheed 1011 Tristar,Legacy,3,Widebody,Fixed wing,Jet,Lockheed,United States
+765,L-1011-500,Lockheed 1011 Tristar,Legacy,3,Widebody,Fixed wing,Jet,Lockheed,United States
+767,CRJ1000X,CRJ1000,Current Gen,2,Regional Jet,Fixed wing,Jet,Bombardier,Canada
+770,Falcon 900.900EX,Falcon 900/900EX,,3,Large/Long Range Jet,Fixed wing,Jet,Dassault,France
+771,Falcon 50,Falcon 50,,3,Midsize Jet,Fixed wing,Jet,Dassault,France
+774,Falcon 2000,Falcon 2000,,2,Super Midsize Jet,Fixed wing,Jet,Dassault,France
+775,Falcon 7X,Falcon 7X,,3,Large/Long Range Jet,Fixed wing,Jet,Dassault,France
+776,Falcon 6X,Falcon 6X,,2,Large/Long Range Jet,Fixed wing,Jet,Dassault,France
+777,Challenger 850,Bombardier Challenger 850,,2,Large/Long Range Jet,Fixed wing,Jet,Bombardier,Canada
+778,G700,Gulfstream G700,,2,Large/Long Range Jet,Fixed wing,Jet,Gulfstream,United States
+780,TU-154,Tu-154,Legacy,3,Narrowbody,Fixed wing,Jet,Tupolev,Russia
+788,Global 6000,Bombardier Global Express,,2,Large/Long Range Jet,Fixed wing,Jet,Bombardier,Canada
+792,Yak-42,Yak-42,Current Gen,3,Regional Jet,Fixed wing,Jet,Yakovlev,Russia
+800,B707-100,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+802,B707-100B,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+804,B707-200,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+806,B707-300,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+808,B707-300B,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+809,B707-300C,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+810,B707-400,B707,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+812,B720,B720,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+814,B720-B,B720,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+816,B747-100,B747 Classic,Legacy,4,Widebody,Fixed wing,Jet,Boeing,United States
+817,B747-200/300,B747 Classic,Legacy,4,Widebody,Fixed wing,Jet,Boeing,United States
+818,B747C,B747-400,Current Gen,4,Widebody,Fixed wing,Jet,Boeing,United States
+819,B747-400,B747-400,Current Gen,4,Widebody,Fixed wing,Jet,Boeing,United States
+820,B747-4F,B747-400,Current Gen,4,Widebody,Fixed wing,Jet,Boeing,United States
+821,B747-8,B747-8,Current Gen,4,Widebody,Fixed wing,Jet,Boeing,United States
+822,B747SP,B747 Classic,Legacy,4,Widebody,Fixed wing,Jet,Boeing,United States
+823,B747-200F,B747 Classic,Legacy,4,Widebody,Fixed wing,Jet,Boeing,United States
+824,A330-900neo,A330neo,Next Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+825,CV-22/22M,Convair 880,Legacy,4,Narrowbody,Fixed wing,Jet,Convair,United States
+830,CV-30,Convair 990,Legacy,4,Narrowbody,Fixed wing,Jet,Convair,United States
+833,EMB-650,Embraer Legacy 600/650,,2,Midsize Jet,Fixed wing,Jet,Embraer,Brazil
+835,RJ85,BAE-146,Current Gen,4,Regional Jet,Fixed wing,Jet,Avro,United Kingdom
+836,A350-1000,A350,Next Gen,2,Widebody,Fixed wing,Jet,Airbus,France
+837,B787-10,B787,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+838,B737 MAX 800,B737 MAX,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+839,B737 MAX 900,B737 MAX,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+840,DC-8-10,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+842,DC-8-20,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+844,DC-8-30,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+846,DC-8-40,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+848,DC-8-50,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+850,DC-8-50F,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+851,DC-8-61,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+852,DC-8-63F,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+854,DC-8-62,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+856,DC-8-63,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+860,DC-8-71,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+862,DC-8-72,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+864,DC-8-73,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+865,DC-8-73F,DC-8,Legacy,4,Narrowbody,Fixed wing,Jet,Boeing,United States
+866,BAE-146-100/RJ70,BAE-146,Current Gen,4,Regional Jet,Fixed wing,Jet,BAE Systems,United Kingdom
+867,BAE-146-200,BAE-146,Current Gen,4,Regional Jet,Fixed wing,Jet,BAE Systems,United Kingdom
+868,BAE-146-300,BAE-146,Current Gen,4,Regional Jet,Fixed wing,Jet,BAE Systems,United Kingdom
+870,Lockheed JetStar,Lockheed JetStar,Legacy,4,Light Jet,Fixed wing,Jet,Lockheed,United States
+871,A340-300,A340,Legacy,4,Widebody,Fixed wing,Jet,Airbus,France
+872,A340-500,A340,Legacy,4,Widebody,Fixed wing,Jet,Airbus,France
+873,A340-200,A340,Legacy,4,Widebody,Fixed wing,Jet,Airbus,France
+874,A340-600,A340,Legacy,4,Widebody,Fixed wing,Jet,Airbus,France
+875,Concorde,Concorde,Legacy,4,Narrowbody,Fixed wing,Jet,Airbus,France
+876,IL-62,Ilyushin IL-62,Legacy,4,Narrowbody,Fixed wing,Jet,Ilyushin,Russia
+877,IL-76/TD,Ilyushin IL-76,Current Gen,4,Widebody,Fixed wing,Jet,Ilyushin,Russia
+878,IL-86,Ilyushin IL-86,Current Gen,4,Widebody,Fixed wing,Jet,Ilyushin,Russia
+879,IL-96,Ilyushin IL-96,Current Gen,4,Widebody,Fixed wing,Jet,Ilyushin,Russia
+880,AN-124,Antonov An-124,Current Gen,4,Widebody,Fixed wing,Jet,Antonov,Ukraine
+881,IL-96-400T,Ilyushin IL-96,Current Gen,4,Widebody,Fixed wing,Jet,Ilyushin,Russia
+882,A380-800,A380,Current Gen,4,Widebody,Fixed wing,Jet,Airbus,France
+885,B737-MAX10,B737 MAX,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+887,B787-8,B787,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+888,B737-900ER,B737 NG,Current Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+889,B787-9,B787,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States
+890,AN-225,Antonov An-225 Mriya,Current Gen,6,Widebody,Fixed wing,Jet,Antonov,Ukraine
+894,B737 MAX 8-200,B737 MAX,Next Gen,2,Narrowbody,Fixed wing,Jet,Boeing,United States

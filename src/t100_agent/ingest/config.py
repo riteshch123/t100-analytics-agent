@@ -11,8 +11,13 @@ from dotenv import load_dotenv
 class Settings:
     gcp_project: str
     bq_dataset: str
+    # Lookup tables and the aircraft classification.
+    bq_ref_dataset: str
+    # Enriched views: what the agent queries.
+    bq_views_dataset: str
     bq_location: str
     data_dir: Path
+    lookups_dir: Path
     # Hard cap on bytes a single query may scan. BigQuery fails the query instead of billing more.
     max_bytes_billed: int
 
@@ -24,8 +29,11 @@ class Settings:
         return cls(
             gcp_project=project,
             bq_dataset=os.environ.get("BQ_RAW_DATASET", "t100_raw"),
+            bq_ref_dataset=os.environ.get("BQ_REF_DATASET", "t100_ref"),
+            bq_views_dataset=os.environ.get("BQ_VIEWS_DATASET", "t100"),
             bq_location=os.environ.get("BQ_LOCATION", "US"),
             data_dir=Path(os.environ.get("T100_DATA_DIR", "data/raw")),
+            lookups_dir=Path(os.environ.get("T100_LOOKUPS_DIR", "data/lookups")),
             max_bytes_billed=int(os.environ.get("BQ_MAX_BYTES_BILLED", str(2 * 1024**3))),
         )
 

@@ -45,26 +45,40 @@ python -m t100_agent.ingest.run sync --from 2015-01 --to 2025-06 --delete-local
 
 For each month this downloads from BTS, loads into BigQuery, checks the row count matches the file, then deletes the local file, so your disk only ever holds one month. Months already in BigQuery are skipped, so you can stop and re-run at any time. Older years can be added later the same way.
 
-## 5. Check the data
+## 5. Reference tables and enriched views
+
+```bash
+python -m t100_agent.ingest.run lookups
+python -m t100_agent.ingest.run views
+```
+
+`lookups` downloads every BTS lookup table linked from the market and segment download pages (carrier groups, service classes, city markets, world area codes, aircraft types and configurations, and so on) plus the Master Coordinate airport table, into `data/lookups/`. It then loads them into the `t100_ref` dataset, together with the aircraft classification in `reference/aircraft_classification.csv`. Each run replaces those tables, so it is safe to re-run. Add `--skip-download` to reload the files already on disk.
+
+`views` creates two views in the `t100` dataset: `segment` and `market`. Each is the raw table with every code decoded into readable columns (`CLASS_DESC`, `ORIGIN_AIRPORT_NAME`, `AIRCRAFT_FAMILY`, ...). They are views rather than tables, so they cost no storage, never need refreshing after a monthly load, and still only scan the years a query asks for. If a lookup was not downloaded, `views` says which column it could not decode.
+
+To update the aircraft classification, edit the CSV and run `lookups --skip-download`.
+
+## 6. Check the data
 
 ```bash
 python -m t100_agent.ingest.checks
 ```
 
-It reports missing months and leftover `'nan'` values, and shows how many segment rows share the old Snowflake merge key (rows the old pipeline could have overwritten).
+It reports missing months and leftover `'nan'` values, and shows how many segment rows share the old Snowflake merge key (rows the old pipeline could have overwritten). For the views it checks, on the latest year, that each has exactly as many rows as its raw table, and lists airports with no name and aircraft types missing from the classification.
 
-## 6. Every month after that
+## 7. Every month after that
 
 ```bash
 python -m t100_agent.ingest.run sync --delete-local
 ```
 
-It continues from the latest month already in BigQuery and stops at the first month BTS has not published yet.
+It continues from the latest month already in BigQuery and stops at the first month BTS has not published yet. The views pick up the new months on their own. Re-run `lookups` now and then (every few months is plenty), since BTS adds new codes over time.
 
 ## What lives where
 
 | Thing | Where |
 |---|---|
 | Raw tables | `<project>.t100_raw.raw_market`, `<project>.t100_raw.raw_segment`, partitioned by `YEAR`, clustered by `MONTH` and `UNIQUE_CARRIER` |
-| Enriched tables (lookups joined in) | Next step, once the lookup tables are rebuilt |
-| Settings | Environment variables: `GCP_PROJECT`, `BQ_RAW_DATASET` (default `t100_raw`), `BQ_LOCATION` (default `US`), `T100_DATA_DIR` (default `data/raw`), `BQ_MAX_BYTES_BILLED` |
+| Reference tables | `<project>.t100_ref.*`: one table per BTS lookup (`l_service_class`, ...), `master_coordinate` and `aircraft_classification` |
+| Enriched views (what the agent queries) | `<project>.t100.segment`, `<project>.t100.market` |
+| Settings | `.env`: `GCP_PROJECT`, and optionally `BQ_RAW_DATASET` (default `t100_raw`), `BQ_REF_DATASET` (`t100_ref`), `BQ_VIEWS_DATASET` (`t100`), `BQ_LOCATION` (`US`), `T100_DATA_DIR` (`data/raw`), `T100_LOOKUPS_DIR` (`data/lookups`), `BQ_MAX_BYTES_BILLED` |
